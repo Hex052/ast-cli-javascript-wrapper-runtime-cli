@@ -19,7 +19,7 @@
     "unzipper": "^0.12.3"
   },
   "scripts": {
-    "prepare": "tsc"
+    "prepare": "tsc",
     "build": "tsc",
     "postbuild": "copyfiles -u 1 src/tests/data/* dist/;",
     "lint": "eslint . --ext .ts",

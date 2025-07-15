@@ -9,6 +9,9 @@
     "README.md",
     "checkmarx-ast-cli.version"
   ],
+  "scripts": {
+    "prepare": "tsc"
+  },
   "dependencies": {
     "async-mutex": "^0.5.0",
     "azure-pipelines-tool-lib": "^2.0.8",

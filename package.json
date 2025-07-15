@@ -6,6 +6,7 @@
   "typings": "dist/main/wrapper/CxWrapper.d.ts",
   "files": [
     "dist/main/**/*",
+    "src/main/**/*",
     "README.md",
     "checkmarx-ast-cli.version"
   ],
